@@ -1,0 +1,14 @@
+[workspace]
+
+resovler = "2"
+members = [ "fincore","vmtouch"]
+
+[workspace.package]
+name = "my_rust_workspace"
+version = "0.1.0"
+
+[workspace.dependencies]
+clap = { version = "4.5.16", features = ["derive"] }
+libc = "0.2.158"
+memmap2 = "0.9.4"
+
